@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <script src="app.js"></script>
+    
+    <div class="container">
+
+        <div class="screen">
+            <p id="showNumbers"></p>
+        </div>
+
+        <div class="buttons">
+
+            <button class="one" onclick="saveNumbers('1')"> 1 </button>
+                
+            <button class="two" onclick="saveNumbers('2')"> 2 </button>
+
+            <button class="three" onclick="saveNumbers('3')"> 3 </button>
+
+            <button class="four" onclick="saveNumbers('4')"> 4 </button>
+
+            <button class="five" onclick="saveNumbers('5')"> 5 </button>
+
+            <button class="six" onclick="saveNumbers('6')"> 6 </button>
+
+            <button class="seven" onclick="saveNumbers('7')"> 7 </button>
+
+            <button class="eight" onclick="saveNumbers('8')"> 8 </button>
+
+            <button class="nine" onclick="saveNumbers('9')"> 9 </button>
+
+            <button class="zero" onclick="saveNumbers('0')"> 0 </button>
+
+            <button class="dot" onclick="saveNumbers('.')"> . </button>
+
+            <button class="add" onclick="opera('+')"> + </button>
+            
+            <button class="sub" onclick="opera('-')"> - </button>
+
+            <button class="multi" onclick="opera('*')"> x </button>
+            
+            <button class="division" onclick="opera('/')"> / </button>
+
+            <button class="reset" onclick="reset()"> C </button>
+
+            <button class="result" onclick="resultado()"> = </button>
+
+        </div>
+    </div>    
+</body>
+</html>

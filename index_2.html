@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="app_2.js"></script>
+    
+    <div class="main">
+        <div id="screen" class="screen">
+            
+        </div>
+        <div class="buttons">
+            <form id="form"> 
+                <input onclick="operacion()" type="button" >
+                <input type="button" id="one" value="2">
+
+            </form>
+            
+            <input type="number" id="one">
+
+            <select id="ope" name="form">
+                <option id="s" value="suma">Suma</option>
+                <option id="r" value="resta">Resta</option>
+                <option id="m" value="Multiplicacion">Multiplicación</option>
+                <option id="d" value="division">División</option>
+            </select>
+           
+            <input type="number" id="two">
+
+            <button onclick="one()" id="num" value="1"> 1 </button>
+                
+            <button onclick="two()" id="num2" value="2"> 2 </button>
+
+            <button onclick="prueba('3')"> 3 </button>
+
+            <button onclick="prueba('4')"> 4 </button>
+
+            <button onclick="prueba('5')"> 5 </button>
+
+            <button onclick="calculo(6)"> 6 </button>
+
+            <button onclick="calculo(7)"> 7 </button>
+
+            <button onclick="calculo(8)"> 8 </button>
+
+            <button onclick="calculo(9)"> 9 </button>
+
+            <button onclick="zero(0)" id="num0"> 0 </button>
+
+            <button onclick="operacion('+')" id="plus"> + </button>
+            
+            <button onclick="operacion('-')"> - </button>
+
+            <button onclick="operacion('*')"> x </button>
+            
+            <button onclick="operacion('/')"> / </button>
+
+            <button onclick="resultado2()"> = </button>
+        </div>
+    </div>    
+</body>
+</html>
